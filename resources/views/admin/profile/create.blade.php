@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -10,6 +9,18 @@
 
         </head>
         <body>
-            <h1>Myプロフィール作成画面</h1>
+            @extends('layouts.admin')
+            
+            @section('title', 'Myプロフィール画面')
+            
+            @section('content')
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1>Myプロフィール</h1>
+                    </div>
+                </div>
+            </div>
+            @endsection
         </body>
 </html>
