@@ -9,6 +9,18 @@
         
     </head>
     <body>
-        <h1>Profile edit</h1>
+         @extends('layouts.profile')
+        
+        @section('title', 'プロフィールの編集')
+        
+        @section('content')
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+        <h1>プロフィール編集</h1>
+        </div>
+        </div>
+        </div>
+        @endsection
     </body>
 </html>
