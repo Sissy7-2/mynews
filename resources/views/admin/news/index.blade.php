@@ -6,6 +6,8 @@
      <div class="row">
          <h2>ニュース一覧</h2>
      </div>
+     <h3>毎朝10:00に更新しています</h3>
+     <p>TEST デプロイの作業になれるために、ビューを一部変更してもう一度デプロイを行なってください。TEST</p>
      <div class="row">
          <div class="col-md-4">
              <a href="{{ action('Admin\NewsController@add') }}" role="button" class="btn btn-primary">新規作成</a>
