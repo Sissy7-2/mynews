@@ -776,7 +776,7 @@
                 "symfony/console": "^4.2",
                 "symfony/debug": "^4.2",
                 "symfony/finder": "^4.2",
-                "symfony/http-foundation": "^4.2",
+                "symfony/http-foundation": "4.4.7",
                 "symfony/http-kernel": "^4.2",
                 "symfony/process": "^4.2",
                 "symfony/routing": "^4.2",
@@ -2379,7 +2379,7 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v4.4.2",
+            "version": "4.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
@@ -2451,7 +2451,7 @@
                 "psr/log": "~1.0",
                 "symfony/error-handler": "^4.4",
                 "symfony/event-dispatcher": "^4.4",
-                "symfony/http-foundation": "^4.4|^5.0",
+                "symfony/http-foundation": "4.4.7",
                 "symfony/polyfill-ctype": "^1.8",
                 "symfony/polyfill-php73": "^1.9"
             },
